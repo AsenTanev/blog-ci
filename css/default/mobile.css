@@ -1,0 +1,50 @@
+/* MOBILE STYLES */
+@media only screen and (max-width: 500px)
+{
+	#container {
+		max-width: 320px;
+		padding: 0px;	
+	}
+	.flexslider img {
+		width: 285px;	
+	}
+	#menu_wrapper { 
+		max-width: 320px;
+	}
+	#page_body {
+		max-width: 285px;
+		float: left;
+	}
+	nav{
+		width: 316px;
+		height: auto;	
+	}
+	article {
+		float: left;
+		max-width: 255px;	
+	}
+	article img {
+		max-width: 255px;	
+	}
+	article .featuredimg {
+		max-width: 255px;
+	}
+	.readmore {
+		max-width: 255px;	
+	}
+	#comments {
+		max-width: 255px;
+	}
+	#pagination {
+		float: left;
+	}
+	#right_wrapper {
+		display: none;
+	}
+	.bottom_shadow {
+		width: 320px;
+	}
+	footer {
+		padding: 5px;
+	}
+}
